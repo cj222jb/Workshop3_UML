@@ -18,7 +18,7 @@ public class Dealer extends Player {
       System.out.println("" + c.GetValue() + " of " + c.GetColor());
     }    */
   }
-  
+
   
   public boolean NewGame(Player a_player) {
     if (m_deck == null || IsGameOver()) {
@@ -57,5 +57,17 @@ public class Dealer extends Player {
     }
     return false;
   }
-  
+
+  public boolean Stand(){
+    if(m_deck != null){
+      ShowHand();
+      while(m_hitRule.DoHit(this)){
+        Card c = m_deck.GetCard();
+        c.Show(true);
+        DealCard(c);
+      }
+      return true;
+    }
+    return false;
+  }
 }
