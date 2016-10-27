@@ -18,8 +18,6 @@ public class Dealer extends Player {
       System.out.println("" + c.GetValue() + " of " + c.GetColor());
     }    */
   }
-  
-  
   public boolean NewGame(Player a_player) {
     if (m_deck == null || IsGameOver()) {
       m_deck = new Deck();
@@ -57,5 +55,6 @@ public class Dealer extends Player {
     }
     return false;
   }
+
   
 }
