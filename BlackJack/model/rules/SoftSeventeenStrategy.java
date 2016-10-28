@@ -4,7 +4,7 @@ import BlackJack.model.Card;
 import BlackJack.model.Player;
 
 
-public class SoftSeventeenStrategy extends BasicHitStrategy{
+public class SoftSeventeenStrategy implements IHitStrategy{
     private final int g_hitLimit = 17;
 
 
