@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2846b587-861a-4bc6-9cc3-1e76f6650668" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BlackJack/model/rules/SoftSeventeenStrategy.java" afterPath="$PROJECT_DIR$/BlackJack/model/rules/SoftSeventeenStrategy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="Workshop3_UML.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,8 +80,8 @@
       <file leaf-file-name="SoftSeventeenStrategy.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BlackJack/model/rules/SoftSeventeenStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17495711">
-              <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.5831904">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -774,12 +773,12 @@
       <workItem from="1477558831387" duration="10958000" />
       <workItem from="1477573597379" duration="192000" />
       <workItem from="1477573806368" duration="3221000" />
-      <workItem from="1477646636620" duration="6777000" />
+      <workItem from="1477646636620" duration="6819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21148000" />
+    <option name="totallyTimeSpent" value="21190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1176,8 +1175,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BlackJack/model/rules/SoftSeventeenStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17495711">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.5831904">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
