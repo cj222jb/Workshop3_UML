@@ -34,7 +34,7 @@ public class Player {
   {
     for(Card c : m_hand)
     {
-      c.Show(true);
+        c.Show(true);
     }
   }
   
