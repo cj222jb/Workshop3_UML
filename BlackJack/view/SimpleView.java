@@ -32,11 +32,6 @@ public class SimpleView implements IView
 
         public void DisplayPlayerHand(Iterable<BlackJack.model.Card> a_hand, int a_score)
         {
-            try {
-                Thread.sleep(2000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
             DisplayHand("Player", a_hand, a_score);
         }
 
