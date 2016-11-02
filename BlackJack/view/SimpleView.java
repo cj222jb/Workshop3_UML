@@ -1,6 +1,8 @@
 package BlackJack.view;
 
-public class SimpleView implements IView 
+import BlackJack.model.Game;
+
+public class SimpleView implements IView
 {
 
   public void DisplayWelcomeMessage()
@@ -24,6 +26,26 @@ public class SimpleView implements IView
           }
         }
 
+    public boolean UserChoice(Game a_game){
+
+        int input = GetInput();
+
+        if (input == 'p')
+        {
+            a_game.NewGame();
+        }
+        else if (input == 'h')
+        {
+            a_game.Hit();
+        }
+        else if (input == 's')
+        {
+            a_game.Stand();
+        }
+        return input != 'q';
+    }
+
+
         public void DisplayCard(BlackJack.model.Card a_card)
         {
 
@@ -32,11 +54,6 @@ public class SimpleView implements IView
 
         public void DisplayPlayerHand(Iterable<BlackJack.model.Card> a_hand, int a_score)
         {
-            try {
-                Thread.sleep(2000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
             DisplayHand("Player", a_hand, a_score);
         }
 

@@ -25,7 +25,7 @@ public class SoftSeventeenStrategy implements IHitStrategy{
             };
             assert (cardScores.length == Card.Value.Count.ordinal()) : "Card Scores array size does not match number of card values";
 
-            for(Card c : a_dealer.GetHand()) {
+            for(Card c : a_dealer.GetHand()) {  //Calculates the value of all cards in players hand except ace.
                 if (c.GetValue() != Card.Value.Hidden && c.GetValue() !=Card.Value.Ace) {
                     score += cardScores[c.GetValue().ordinal()];
                 }

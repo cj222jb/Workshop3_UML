@@ -1,6 +1,8 @@
 package BlackJack.view;
 
-public class SwedishView implements IView 
+import BlackJack.model.Game;
+
+public class SwedishView implements IView
     {
         public void DisplayWelcomeMessage()
         {
@@ -24,6 +26,25 @@ public class SwedishView implements IView
             System.out.println("" + e);
             return 0;
           }
+        }
+
+        public boolean UserChoice(Game a_game){
+
+            int input = GetInput();
+
+            if (input == 'p')
+            {
+                a_game.NewGame();
+            }
+            else if (input == 'h')
+            {
+                a_game.Hit();
+            }
+            else if (input == 's')
+            {
+                a_game.Stand();
+            }
+            return input != 'q';
         }
         
         public void DisplayCard(BlackJack.model.Card a_card)
