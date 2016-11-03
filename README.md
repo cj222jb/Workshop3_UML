@@ -17,3 +17,11 @@ Gamerule : American
 
 Winrule : AdvantagePlayer
 (Optional Winrules : Advantage dealer)
+
+Removed duplicate code in newGameStrategies. 
+Moved input from controller to view, "removed hidden dependency".
+
+We implemented observer pattern, and our take on the exciting pause is that the dealer gets his second card instantly, then a small pause between each card.
+Also a pause between hitting for cards. 
+ 
+ 

@@ -14,10 +14,6 @@ class InternationalNewGameStrategy extends AmericanNewGameStrategy implements IN
     dealer(true, a_deck, a_dealer);
     player(true, a_deck, a_player);
 
-  
     return true;
   }
-
-
-
 }

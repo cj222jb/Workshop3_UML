@@ -37,7 +37,10 @@ public class Game {
 
     return m_dealer.Stand();
   }
-  
+
+  public void addObserver (Observer a_observer){
+    m_dealer.addObserver(a_observer);
+  }
   public Iterable<Card> GetDealerHand()
   {
     return m_dealer.GetHand();
